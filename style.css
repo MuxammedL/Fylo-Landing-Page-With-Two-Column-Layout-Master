@@ -1,0 +1,483 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    --color1: #070439;
+    --color2: #585989;
+    --color3: #3065f8;
+    --color4: #3c9f8f;
+    --color5: #f6f6fe;
+    --color6: #bfbfbf;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    min-height: 100vh;
+    margin-bottom: 5rem;
+}
+
+.container {
+    padding: 3rem 3.5rem;
+}
+
+.container-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    width: 17rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu a {
+    color: var(--color1);
+    font-size: 1.1rem;
+}
+
+.container-body {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container-body img {
+    height: 28rem;
+    /* margin-left: 1rem; */
+}
+
+.container-body .text h1 {
+    font-size: 2.5rem;
+    font-family: 'Raleway', sans-serif;
+    line-height: 1.5;
+}
+
+.container-body .text p {
+    margin: 1rem 0;
+    font-size: 1rem;
+    margin-right: 3rem;
+    margin-bottom: 1.2rem;
+    letter-spacing: .8px;
+}
+
+.container-body .text input {
+    height: 2.8125rem;
+    width: 20rem;
+    margin-right: 1rem;
+    font-size: 1rem;
+    padding: 0 1.2rem;
+    opacity: .7;
+    border: 1px solid #68686A;
+    border-radius: 4px;
+    box-shadow: 2px 2px 5px hsla(210, 1%, 31%, 0.342);
+}
+.container-body .text input:focus{
+    outline: 1px solid hsla(224, 93%, 58%, 0.7);
+}
+.container-body .text button {
+    height: 2.8125rem;
+    width: 12.5rem;
+    background-color: var(--color3);
+    border: none;
+    border-radius: 4px;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all .2s ease-in;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px hsla(224, 93%, 58%, 0.342);
+}
+
+.container-body .text button:hover {
+    opacity: .8;
+}
+
+.container1 {
+    min-height: 100vh;
+    display: flex;
+    background-image: url(images/bg-curve-desktop.svg);
+    background-repeat: no-repeat;
+}
+.container1 .empty-area{
+    margin-top: 6rem;
+    background-color: #F9F8FE;
+}
+.container1 .empty-area .empty-area-next{
+    padding: 4rem;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.container1 .illustration-2 {
+    height: 25rem;
+    margin-top: 1.5rem;
+    margin-left: 1.5rem;
+}
+.container1 .empty-area .empty-area-next h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container1 .empty-area .empty-area-next p{
+    margin-right: 9rem;
+    margin-bottom: 1rem;
+}
+.flyo-works{
+    border-bottom:1px solid var(--color4) ;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    transition: all .2s ease-in;
+    margin-bottom: 3rem;
+}
+.flyo-works:hover{
+    filter: brightness(1.5);
+}
+.flyo-works a{
+    color: var(--color4);
+    margin-bottom: .19rem;
+    margin-right: 0.4rem;
+}
+
+.floating-card{
+    width: 22.25rem;
+    height: 13.4375rem;
+    background-color: #fff;
+    border-radius: .5rem;
+    box-shadow: 0 0 10px rgb(219, 217, 217);
+    margin-bottom: 3rem;
+}
+.floating-card .floating-card-inner{
+    padding: 1.5rem 2rem;
+}
+.floating-card .floating-card-inner img{
+    height: 1rem;
+}
+.floating-card h2{
+    font-size: .8rem;
+    font-weight: 400;
+    letter-spacing: .7px;
+    line-height: 1.8;
+}
+.floating-card .profil img{
+    height: 2rem;
+    border-radius: 50%;
+    margin-right: .6rem;
+}
+.profil{
+    height: 2rem;
+    display: flex;
+    align-items: center;
+    margin-top: 1.2rem;
+}
+.profil .info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 2rem;
+}
+.floating-card .floating-card-inner .profil .info h3{
+    font-size: .8rem;
+}
+.floating-card .floating-card-inner .profil .info p{
+    margin: 0;
+    font-size: .55rem;
+    font-family: 'Raleway', sans-serif;
+}
+
+.container2{
+    background-color: var(--color2);
+}
+.container2-inner{
+    padding: 7rem 7.5rem 5.75rem 5rem;
+    display: flex;
+}
+.container2-inner .text h1{
+    color: #fff;
+    margin-bottom: 1.5rem;
+}
+.container2-inner .text p{
+    margin-right: 11rem;
+    color: rgba(255, 255, 255, 0.8);
+}
+.container2-inner form input{
+    width: 30rem;
+    height: 3rem;
+    border: 1px solid #68686A;
+    border-radius: 4px;
+    padding: 1rem;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.3);
+}
+.container2-inner form input:focus{
+    outline: 1px solid rgb(121, 105, 211) ;
+}
+.container2-inner form button{
+    margin-top: 1rem;
+    height: 3rem;
+    width: 12.5rem;
+    border-radius: 4px;
+    background-color: var(--color3);
+    border: 1px solid var(--color3);
+    font-weight: bold;
+    color: #fff;
+    font-size: 14px;
+    font-family: 'Raleway', sans-serif;
+    transition: all .2s ease-in;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px hsla(0, 0%, 0%, 0.3);
+}
+.container2-inner form button:hover {
+    opacity: .8;
+}
+
+footer{
+    background-color: var(--color1);
+    padding: 5rem 4rem;
+    display: flex;
+    justify-content: space-between;
+    color: var(--color5);
+}
+footer .card1{
+    margin-left: 1rem;
+}
+footer .card1 .contact{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+}
+footer .card1 .contact img{
+    margin-right: 1rem;
+}
+
+footer .card2 {
+    display: flex;
+}
+
+footer .card2 .services1{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+footer .card2 .services1 a{
+    color: var(--color5);
+    margin-bottom: 1rem;
+    transition: all .2s ease-in;
+}
+footer .card2 .services1 a:hover{
+    color:var(--color2);
+    transform: scale(1.05);
+}
+.space{
+    margin-right: 10rem;
+}
+footer .card3{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: center;
+}
+footer .card3 .icon{
+    border-radius: 50%;
+    border: 1px solid #fff;
+    margin-right: 2rem;
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all .2s ease-in;
+    cursor: pointer;
+}
+footer .card3 .icon i{
+    transition: all .2s ease-in;
+    cursor: pointer;
+
+}
+footer .card3 .icon:hover,footer .card3 .icon i:hover{
+    color:var(--color2);
+    transform: scale(1.05);
+    border-color: var(--color2);
+}
+.combination{
+    width: 20rem;
+    margin-right: 1rem;
+}
+@media(max-width:1056px){
+    .container {
+        padding: 1.5rem 1rem;
+    }
+    .container .container-head img{
+        height: 2rem;
+    }
+    .menu{
+        width: 10rem;
+    }
+    .menu a{
+        font-size: .8rem;
+        margin: 0;
+    }
+    .container-body {
+        flex-direction: column-reverse;
+    }
+    .container-body img {
+        height: 20rem;
+    }
+    .container-body .text h1 {
+        margin-top: 2rem;
+        font-size: 1.4rem;
+        text-align: center;
+    }
+    .container-body .text p {
+        margin-right: 0;
+        text-align: center;
+        font-size: .8rem;
+    }
+    .container-body .text input {
+        width: 100%;
+        margin-right: 0;
+    }
+    .container-body .text button {
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .container1 {
+        background-image: url(images/bg-curve-mobile.svg);
+        background-size: 100%;
+    }
+    .container1 .empty-area {
+        margin-top: 2.1rem;
+        width: 100%;
+    }
+    .container1 .empty-area .empty-area-next {
+        padding: 0;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .container1 .illustration-2 {
+        height: 15rem;
+        margin-top: 1.5rem;
+        padding: 0 1.5rem;
+        margin-left: 0;
+    }
+    .container1 .empty-area .empty-area-next h1 {
+        font-size: 1rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .container1 .empty-area .empty-area-next p {
+        margin-right: 0;
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+    }
+    .flyo-works {
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        margin-top: 2rem;
+    }
+    .floating-card {
+        margin: 0 auto;
+        margin-bottom: 3rem;
+        width: 20rem;
+    }
+    .floating-card h2 {
+        font-size: .7rem;
+        line-height: 1.8;
+        letter-spacing: .5px;
+    }
+    .floating-card .floating-card-inner {
+        padding: 1.5rem 1.5rem;
+    }
+    .floating-card .floating-card-inner .profil .info p {
+        padding: 0;
+    }
+    .container2-inner {
+        padding: 4rem 1rem;
+        display: flex;
+        flex-direction: column;
+    }
+    .container2-inner .text h1 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .container2-inner .text p {
+        margin-right: 0;
+        text-align: center;
+    }
+    .container2-inner form input {
+        width: 100%;
+        margin-top: 2rem;
+    }
+    .container2-inner form button {
+        width: 100%;
+    }
+    footer {
+        flex-direction: column;
+        padding: 3rem 1rem;
+    }
+    footer .card2 {
+        flex-direction: column;
+        margin-left: 1rem;
+    }
+    footer .card2 .services1 {
+        margin-top: 2rem;
+    }
+    footer .card3{
+        margin-top: 2rem;
+    }
+    footer .card3 .icon {
+        margin: 0 .5rem;
+    }
+    .combination{
+        width: 100%;
+    }
+    .button-1{
+        flex-direction: column;
+    }
+}
+@media(max-width:1056px) and (min-width:470px){
+    .container1 .empty-area {
+        margin-top: 4rem;
+    }
+    .container1 .illustration-2 {
+        height: 20rem;
+    }
+}
+@media(max-width:1115px) and (min-width:1056px){
+    .container-body img {
+        height: 17rem;
+    }
+}
+@media(max-width:500px){
+    .container-body img {
+        height: 14rem;
+    }
+}
+.container-body .text .invalid{
+    border: 1px solid rgb(204, 6, 6);
+}
+.container2-inner form .invalid{
+    border: 1px solid rgb(204, 6, 6);
+}
+.invalid-feedback{
+    color: rgb(204, 6, 6);
+    font-size: .8rem;
+}
+.container2-inner form .invalid-feedback{
+    color: var(--color5);
+    font-size: .8rem;
+}
+.button-1{
+    display: flex;
+}
